@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系人"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2c2a2a"
+        android:gravity="center"/>
+    <ListView
+        android:id="@+id/lv_lxr"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@+id/tv_title"
+        />
+    <Button
+        android:id="@+id/btn_fh"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:background="#3dbd4e"
+        android:layout_below="@+id/lv_lxr"/>
+</RelativeLayout>
