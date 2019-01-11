@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="icon_back" />
+    <drawable name="icon_groupinfo" />
+    <drawable name="voice_rcd_btn_nor" />
+    <drawable name="wo" />
+    <drawable name="wp" />
+    <drawable name="voice_rcd_btn_pressed" />
+    <drawable name="mm_title_back_normal" />
+    <drawable name="mm_title_back_focused" />
+    <drawable name="mm_title_back_pressed" />
+</resources>
